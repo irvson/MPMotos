@@ -1,0 +1,82 @@
+.about-mask{
+    width: 100%;
+    height: 100vh;
+position: relative;
+}
+
+.into-img-about{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+
+.about-initial{
+    height: 100%;
+    width: 100%;
+}
+
+
+ .about-btn{
+    margin: 1rem 0.2rem;
+    position: relative;
+    right: 23rem;
+    bottom: 4rem;
+}
+
+.about-btn{
+    padding: 12px 32px;
+    font-size: 1rem;
+    background: rgb(248,217,15);
+    color: #222;
+    border: 1px solid #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.about-mask h2{
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 16%; 
+  left: 55%;
+  
+color: #CAC326;
+font-weight: 400;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 3rem;
+   
+}
+
+.about-mask p{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 55%;
+    left: 55%;
+    
+  color: #CAC326;
+  font-weight: 300;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.5rem;
+  text-align: justify;
+
+  }
+
+@media screen and (max-width:640px){
+    .about-mask h2{
+        font-size: 1.75rem;
+        position: absolute;
+        right: 20%;
+        
+    
+    }
+    
+    .about-mask p{
+        font-size: 1rem;
+        position: absolute;
+        top: 45%;
+       
+    }
+}
