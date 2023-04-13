@@ -3,6 +3,7 @@ import './NavbarStyles.css'
 import  { useState } from 'react'
 import { Link } from 'react-router-dom'
 
+import Logo from    '../../assets/wheel.jpg'
 
 
 export default () => {
@@ -25,7 +26,7 @@ export default () => {
          
             <Link to='/'>
             <h2>
-                 <img src="src/assets/wheel.jpg" alt="logoInitial" /> MP Motos
+                 <img src={Logo} alt="logoInitial" /> MP Motos
                  </h2>          
             </Link>
 
