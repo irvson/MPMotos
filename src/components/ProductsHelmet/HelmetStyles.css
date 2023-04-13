@@ -74,7 +74,7 @@ text-align: center;
 
 
 
-@media screen and (max-width:660px){
+@media screen and (max-width:760px){
     .prod-container{     
         grid-template-columns: 1fr;
        
