@@ -25,7 +25,7 @@ export default () => {
          
             <Link to='/'>
             <h2>
-                 <img src="src/assets/wheel.png" alt="logoInitial" /> MP Motos
+                 <img src="src/assets/wheel.jpg" alt="logoInitial" /> MP Motos
                  </h2>          
             </Link>
 

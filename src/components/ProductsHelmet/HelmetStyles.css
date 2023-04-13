@@ -2,25 +2,21 @@
     background-color: rgba(3, 3, 3, 0.8);
     position: relative;
    align-items: center;
-   
+ width: 100vw;
       
 }
 
 
 
 .prod-container{
-    max-width: 1150px;
-    margin: auto;
+       
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(6,1fr);
-    gap: 35px;
-    grid-column: 25px;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 14px;
     padding-bottom: 5rem;
-    margin-top: 0.5rem;
-
     position: relative;
-    right: 13%;
-    cursor: pointer;
+    
     
 }
 
@@ -37,17 +33,20 @@
 
 .helmet-card{
     
-    background: #525151;
-    padding: 1rem 1.5rem;
-    width: 240px;
-    height: 285px;
-    
+    background:#252525;;
+    padding: 1.5rem 1.5rem;
+    width: 210px;
+    display: flow-root;
+    justify-self: center;
     
 
 }
 .helmet-card img{
-    width: 200px;
-    align-items: center;
+    width: 166px;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    
    
 }
 
@@ -63,7 +62,7 @@
     display: flex;
     justify-content: center;    
     align-items: center;
-    margin-top: 0.6rem;
+    margin-top: 1.4rem;
 }
 
 .pro-btns .btn{
@@ -75,13 +74,11 @@ text-align: center;
 
 
 
-@media screen and (max-width:760px){
-    .prod-container{
-        max-width: 90%;
-        margin: auto;
+@media screen and (max-width:660px){
+    .prod-container{     
         grid-template-columns: 1fr;
-        width: 250px;
-        
+       
+        display: none;
     }
 
 
@@ -93,10 +90,29 @@ text-align: center;
         max-width: 100%;
         margin: auto;
         grid-template-columns: 1fr;
-        width: 100px;
+        width: 15rem;
+        position: relative;
+        
         
     }
 
+    .helmet-card{
+    
+        background:#252525;;
+        padding: 1.5rem 1.5rem;
+        width: 290px;
+        display: flow-root;
+        justify-self: center;
+        
+    
+    }
+
+    .helmet-card img{
+        width: 15rem;
+        align-items: center;
+       
+    }
+    
 
   
 }
